@@ -1,0 +1,4 @@
+deployment:
+ tasks:
+ - export DEPLOYPATH=/home/newhilike/public_html/vroad
+ - /bin/cp * $DEPLOYPATH
